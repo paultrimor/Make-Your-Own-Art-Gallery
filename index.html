@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<title>アートギャラリー</title>
+		<meta charset="UTF-8"> 
+		<link rel="stylesheet" type="text/css" href="style/main.css" />
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/Three.js"></script>
+	</head>
+	<body onload="mainFunction()">
+		
+		 <marquee id="marq" behavior="slide" direction="left" loop="infinite" >
+			あなたは3Dアートギャラリーを所有してください `~-!~-`
+			あなたは3Dアートギャラリーを所有してください `~-!~-
+			あなたは3Dアートギャラリーを所有してください
+		</marquee>
+		</h2>
+		<div id="inputWrapper">
+			<h3 id="howTo">使い方：</h3>
+			<p>1 ）使用したいアートギャラリーのキーワードを入力します。</p>
+			<p>2 ）を入力し、お楽しみください選択します。</p>
+
+			<form action="gallery.html" method="GET"> 	
+				<input style="position: absolute; z-index: 99" type="text" name="searchInput" id="input" /> 	
+				<input style="position: relative; top: 200px; z-index: 99" id="submit" type="submit" value="ENTER" />
+			</form>		
+			<p style="position: relative; z-index: 100"> 1) Type a artist, place, object, .... (anything)</p>
+			<p style="position: relative; z-index: 100"> 2) Press enter to generate your own art gallery </p>
+			<canvas id="webglCanvas"></canvas>
+			<script src="js/bust.js"></script>		
+
+		</div>
+		<marquee id="marq2" style="background-color: none" loop="infinite" direction="right">
+			<img src="res/palm.png">
+			<img src="res/characters.png">
+			<img src="res/palm.png">
+		</marquee>
+	</body>
+</html>

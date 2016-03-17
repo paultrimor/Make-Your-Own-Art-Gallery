@@ -1,0 +1,60 @@
+body {
+	background-color: #fefec4;
+	font-family: 'MS PGothic', Osaka, Arial, sans-serif;
+	font-size: 30px;
+}
+#marq {
+	background-color: #fabaa1;
+	color: #fefec4;
+	display: block;
+	margin: auto;
+	font-size: 40px;
+}
+
+input[type="text"] {
+	display: block;
+	margin: auto;
+	width: 90%; 
+	color: #ff34e4;
+	font-size: 18px;
+	box-shadow: none;
+	border-radius: none;
+	padding: 10px;
+	border: solid 5px #c9c9c9; 
+	transition: border 0.3s;
+} 
+input[type="text"]:focus {
+	display: block;
+	outline: none;
+	border: solid 5px #969696;
+	z-index: 9999;
+}
+input[type="submit"] {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 20px;
+}
+#inputWrapper {
+	display:block;
+	margin: auto;
+	text-algin: center;
+	background-color: #ff34e;
+	color: #ff34e4;
+	width: 30%;
+	position: relative;
+	top: 50px;
+}#howTo {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+#marq2 {
+	position: absolute;
+	bottom: 50px; 
+}
+img {
+	margin: 0px, 10px 0px 10px;
+	width: 200px;
+	height: 200px;
+}
